@@ -1,0 +1,274 @@
+body{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.coso{
+    font-size: 1px;
+    color: #444444;
+}
+/* ---------------------------------------NAV ----------------------------------------- */
+nav{
+    background-color: #D9D9D9;
+}
+nav img{
+    width: 83px;
+    height: 59px;
+}
+.logo-letra{
+    width: 150px;
+}
+
+.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 0 20px;
+}
+.navegacion a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.navegacion a:hover{
+    color: rgba(0, 0, 0, 0.50);
+}
+
+/* -------------------------------------HERO------------------------------- */
+#hero {
+    margin-top: -5px;
+    height: calc(100vh - 80px);
+    background-image: url(../assets/fondo.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centro {
+    position: relative;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+#centro img {
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centro svg {
+    animation: rotateText 60s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Animación de rotación */
+@keyframes rotateText {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+textPath{
+
+    font-size: 19.8px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.divisor{
+    width: 100%;
+    height: 5px;
+    background-color: #D9D9D9;
+}
+/* -------------------------------SOBRE NOSOTROS------------------------ */
+
+#sobre-nosotros {
+    background-color: #444444;
+}
+.img-sn{
+    height: 100vh;
+    background-image: url(../assets/man-sportswear-running-park.webp);
+    background-size: cover;
+    background-position: center;
+}
+.sobre-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.sobre-nos h2{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sobre-nos p{
+    letter-spacing: 4px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 25px 50px 30px 50px;
+}
+.sobre-nos hr{
+    width: 550px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 20px 0;
+}
+.sobre-nos img{
+    width: 200px;
+}
+/* -------------------------------SERVICIOS------------------------ */
+
+#servicios {
+    background-color: #444444;
+    height: 100vh;
+}
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    margin-right: -12px;
+}
+
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.serv h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.serv hr{
+    width: 500px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 0 0 30px 0;
+}
+.card-serv{
+    width: 550px;
+    background-color: rgba(217, 217, 217, 0.40);
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.50);
+    margin-bottom: 50px;
+}
+.titulo{
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.50);
+    background-color: #D9D9D9;
+    width: 550px;
+}
+.card-serv p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* -------------------------------CONTACTO------------------------ */
+
+#contacto {
+    background-color: #444444;
+    height: calc(100vh - 50px);
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.contact h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.h2-1{
+    margin-top: 40px;
+}
+.contact hr{
+    width: 900px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 0 0 30px 0;
+}
+.izquierda{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 50px;
+}
+.izquierda h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.wsp{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+/* ----------------------------FOOTER----------------------- */
+
+.footer{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+}
