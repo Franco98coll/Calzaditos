@@ -467,16 +467,25 @@ textPath{
         text-align: center;
         letter-spacing: 4px;
     }
+    .carru{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        width: 100vh !important;
+    }
     .carousel-item{
         height: 400px;
+        width: 100vw !important;
     }
     .carousel-item img{
-        width: 100%;
+        width: 100% !important;
         height: 100%;
     }
     .carousel{
-        margin-left: -135px;
-        width: 275%;
+        margin-left: -10px;
     }
     .serv h2{
         font-size: 30px;
@@ -546,9 +555,7 @@ textPath{
         font-size: 15px;
     }
 
-    .carousel{
-        margin-left: -124px;
-    }
+
     .serv h2{
         font-size: 25px;
     }
@@ -580,7 +587,7 @@ textPath{
     }
 
     .carousel{
-        margin-left: -118px;
+        margin-left: -2px;
     }
     .serv h2{
         font-size: 25px;
@@ -641,7 +648,7 @@ textPath{
     }
 
     .carousel{
-        margin-left: -102px;
+        margin-left: 0px;
     }
     .serv h2{
         font-size: 20px;
