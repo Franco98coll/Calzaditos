@@ -79,6 +79,8 @@ nav img{
 }
 
 #centro svg {
+    width: 300px;
+    height: 300px;
     animation: rotateText 60s linear infinite;
     position: absolute;
     top: 50%;
@@ -271,4 +273,393 @@ textPath{
     height: 50px;
     text-align: center;
     letter-spacing: 4px;
+}
+
+
+/* ----------------------------RESPONSIVE-------------------- */
+@media screen and (max-width: 900px){
+    .sobre-nos h2{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .sobre-nos p{
+        font-size: 16px;
+        margin: 25px 10px 30px 10px;
+    }
+    .sobre-nos hr{
+        width: 200px;
+    }
+    .sobre-nos img{
+        width: 100px;
+    }
+
+    .card-serv{
+        width: 350px;
+        background-color: rgba(217, 217, 217, 0.40);
+        border-radius: 0px 0px 20px 20px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.50);
+        margin-bottom: 50px;
+    }
+    .titulo{
+        padding: 5px;
+        color: rgba(0, 0, 0, 0.50);
+        background-color: #D9D9D9;
+        width: 350px;
+    }
+    .card-serv p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #contacto {
+        height: 100%;
+    }  
+    .contact h2{
+        font-size: 30px;
+    }
+    .h2-1{
+        margin-top: 30px;
+    }
+    .contact hr{
+        width: 350px;
+    }
+
+    .izquierda h5{
+        font-size: 16px;
+        margin-left: -30px;
+    }
+
+    .footer{
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    .f-1 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .f-2 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .wsp{
+        margin-right: 70px;
+        margin-bottom: 50px;
+    }
+
+}
+@media screen and (max-width: 835px){
+    .sobre-nos h2{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .sobre-nos p{
+        font-size: 16px;
+        margin: 25px 10px 30px 10px;
+    }
+    .sobre-nos hr{
+        width: 200px;
+    }
+    .sobre-nos img{
+        width: 100px;
+    }
+
+    .card-serv{
+        width: 350px;
+        background-color: rgba(217, 217, 217, 0.40);
+        border-radius: 0px 0px 20px 20px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.50);
+        margin-bottom: 50px;
+    }
+    .titulo{
+        padding: 5px;
+        color: rgba(0, 0, 0, 0.50);
+        background-color: #D9D9D9;
+        width: 350px;
+    }
+    .card-serv p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .contact h2{
+        font-size: 30px;
+    }
+    .h2-1{
+        margin-top: 30px;
+    }
+    .contact hr{
+        width: 350px;
+    }
+
+    .izquierda h5{
+        font-size: 16px;
+        margin-left: -30px;
+    }
+
+    .footer{
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    .f-1 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .f-2 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .sobre-nos h2{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .sobre-nos p{
+        font-size: 16px;
+        margin: 25px 10px 30px 10px;
+    }
+    .sobre-nos hr{
+        width: 200px;
+    }
+    .sobre-nos img{
+        width: 100px;
+    }
+
+    #servicios {
+        height: 100%;
+    }
+    .responsive-serv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    .carousel-item{
+        height: 400px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel{
+        margin-left: -135px;
+        width: 275%;
+    }
+    .serv h2{
+        font-size: 30px;
+    }
+    .serv hr{
+        width: 200px;
+    }
+    .card-serv{
+        width: 100%;
+    }
+    .titulo{
+        width: 100%;
+    }
+    .titulo h3{
+        font-size: 16px;
+    }
+    .card-serv p{
+        font-size: 12px;
+    }
+
+    
+    .contact h2{
+        font-size: 30px;
+    }
+    .h2-1{
+        margin-top: 30px;
+    }
+    .contact hr{
+        width: 350px;
+    }
+
+    .izquierda h5{
+        font-size: 16px;
+        margin-left: -30px;
+    }
+
+    .footer{
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    .f-1 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .f-2 h5{
+        font-size: 16px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+
+}
+
+
+@media screen and (max-width: 390px){
+    .sobre-nos h2{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .sobre-nos p{
+        font-size: 15px;
+    }
+
+    .carousel{
+        margin-left: -124px;
+    }
+    .serv h2{
+        font-size: 25px;
+    }
+
+    .contact h2{
+        font-size: 25px;
+    }
+    .h2-1{
+        margin-top: 25px;
+    }
+
+    .izquierda h5{
+        font-size: 16px;
+    }
+    .wsp{
+        margin-right: 70px;
+        margin-bottom: 120px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .sobre-nos h2{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .sobre-nos p{
+        font-size: 13px;
+    }
+
+    .carousel{
+        margin-left: -118px;
+    }
+    .serv h2{
+        font-size: 25px;
+    }
+ 
+    .contact h2{
+        font-size: 25px;
+    }
+    .h2-1{
+        margin-top: 25px;
+    }
+    .contact hr{
+        width: 300px;
+    }
+
+    .izquierda h5{
+        font-size: 15px;
+    }
+    .f-1 h5{
+        font-size: 13px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .f-2 h5{
+        font-size: 13px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .wsp{
+        margin-right: 70px;
+        margin-bottom: 200px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    
+    #centro {
+        width: 150px;
+        height: 150px; 
+    }
+    
+    #centro img {
+        width: 120px;
+    }
+    #centro svg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sobre-nos h2{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .sobre-nos p{
+        font-size: 10px;
+    }
+
+    .carousel{
+        margin-left: -102px;
+    }
+    .serv h2{
+        font-size: 20px;
+    }
+
+    .contact h2{
+        font-size: 20px;
+    }
+    .h2-1{
+        margin-top: 20px;
+    }
+
+    .izquierda h5{
+        font-size: 13px;
+    }
+    .wsp{
+        margin-right: 70px;
+        margin-bottom: 260px;
+    }
+
 }
