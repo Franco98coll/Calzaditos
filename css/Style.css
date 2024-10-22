@@ -516,10 +516,17 @@ textPath{
     .contact hr{
         width: 350px;
     }
+    .izquierda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
 
     .izquierda h5{
         font-size: 16px;
-        margin-left: -30px;
+        margin-left: 10px;
     }
 
     .footer{
