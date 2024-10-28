@@ -2,6 +2,7 @@ body{
         font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
+        overflow-x: hidden;
 }
 .coso{
     font-size: 1px;
@@ -163,6 +164,9 @@ textPath{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.img-zapa{
+    height: 100vh;
 }
 .carousel{
     margin-right: -12px;
